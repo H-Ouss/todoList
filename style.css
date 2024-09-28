@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    border: 2px solid white;
+    
     width: 40%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -84,6 +84,7 @@ body{
     align-items: center;
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
+    user-select: none;
 }
 
 .task span{
@@ -100,4 +101,8 @@ body{
     border: none;
     cursor: pointer;
     outline: none;
+}
+
+.completed{
+    text-decoration: line-through;
 }
